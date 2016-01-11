@@ -1,0 +1,22 @@
+".container" : {
+	backgroundColor:"#FFF"
+},
+
+".mapView" : {
+	height : Ti.UI.FILL,
+	width : Ti.UI.FILL
+},
+
+".icon" : {
+	width : 20,
+	height : 20,
+	left : 5,
+	right :5
+},
+".iconBig" : {
+	width : 25,
+	height : 25,
+	left : 5,
+	right :5
+}
+

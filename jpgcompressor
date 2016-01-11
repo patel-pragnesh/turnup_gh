@@ -1,0 +1,918 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>sideshowcoder/jpgcompressor · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="sideshowcoder/jpgcompressor" name="twitter:title" /><meta content="jpgcompressor - Picture compression for Titanium using UI" name="twitter:description" /><meta content="https://avatars0.githubusercontent.com/u/108488?v=3&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars0.githubusercontent.com/u/108488?v=3&amp;s=400" property="og:image" /><meta content="sideshowcoder/jpgcompressor" property="og:title" /><meta content="https://github.com/sideshowcoder/jpgcompressor" property="og:url" /><meta content="jpgcompressor - Picture compression for Titanium using UI" property="og:description" />
+
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="6B13BC5E:1674:C6B321A:54C3C470" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="5N13MHQA8ZYoFOZApp7CFTAlG1vwgqeGDvUsEzclV8uSGjpMlTgN3w1CO/c5WDlF3yC3hQaVsqPWbMtq/uhC0A==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-3b24b9ac37e087c9b13ad8d84820250a93a4fd610eb6e7535e8b12d0cb87836d.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-1203ee5b00e494008d0b0c430766b6d838a5f9eff614e5345fdb47a96476cc7d.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="f59bd5d91b846e6463184dd1a8e9c2d9">
+
+      
+  <meta name="description" content="jpgcompressor - Picture compression for Titanium using UI">
+  <meta name="go-import" content="github.com/sideshowcoder/jpgcompressor git https://github.com/sideshowcoder/jpgcompressor.git">
+
+  <meta content="108488" name="octolytics-dimension-user_id" /><meta content="sideshowcoder" name="octolytics-dimension-user_login" /><meta content="1961911" name="octolytics-dimension-repository_id" /><meta content="sideshowcoder/jpgcompressor" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="1961911" name="octolytics-dimension-repository_network_root_id" /><meta content="sideshowcoder/jpgcompressor" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/sideshowcoder/jpgcompressor/commits/master.atom" rel="alternate" title="Recent Commits to jpgcompressor:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" ga-data-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="button primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="button" href="/login?return_to=%2Fsideshowcoder%2Fjpgcompressor" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/sideshowcoder/jpgcompressor/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/sideshowcoder/jpgcompressor/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+
+  <li>
+      <a href="/login?return_to=%2Fsideshowcoder%2Fjpgcompressor"
+    class="minibutton with-count star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/sideshowcoder/jpgcompressor/stargazers">
+      36
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fsideshowcoder%2Fjpgcompressor"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/sideshowcoder/jpgcompressor/network" class="social-count">
+        7
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/sideshowcoder" class="url fn" itemprop="url" rel="author"><span itemprop="title">sideshowcoder</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/sideshowcoder/jpgcompressor" class="js-current-repository" data-pjax="#js-repo-pjax-container">jpgcompressor</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/sideshowcoder/jpgcompressor/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/sideshowcoder/jpgcompressor" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /sideshowcoder/jpgcompressor">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/sideshowcoder/jpgcompressor/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /sideshowcoder/jpgcompressor/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+      <a href="/sideshowcoder/jpgcompressor/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /sideshowcoder/jpgcompressor/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/sideshowcoder/jpgcompressor/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /sideshowcoder/jpgcompressor/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/sideshowcoder/jpgcompressor/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /sideshowcoder/jpgcompressor/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                
+  
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/sideshowcoder/jpgcompressor.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/sideshowcoder/jpgcompressor" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<p class="clone-options">You can clone with
+  <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a> or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+
+
+                <a href="/sideshowcoder/jpgcompressor/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download the contents of sideshowcoder/jpgcompressor as a zip file"
+                   title="Download the contents of sideshowcoder/jpgcompressor as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Picture compression for Titanium using UI
+    </div>
+
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/sideshowcoder/jpgcompressor/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              22
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/sideshowcoder/jpgcompressor/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            2
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/sideshowcoder/jpgcompressor/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            1
+          </span>
+          release
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/sideshowcoder/jpgcompressor/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      2
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/sideshowcoder/jpgcompressor/search?l=python">
+                <span class="color-block language-color" style="background-color:#3581ba;"></span>
+                <span class="lang">Python</span>
+                <span class="percent">47.9%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/sideshowcoder/jpgcompressor/search?l=objective-c">
+                <span class="color-block language-color" style="background-color:#438eff;"></span>
+                <span class="lang">Objective-C</span>
+                <span class="percent">39.5%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/sideshowcoder/jpgcompressor/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">12.6%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="tooltipped tooltipped-s" aria-label="Show language statistics">
+    <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats"
+     style="background-color:#f1e05a">
+  <span class="language-color" style="width:47.9%; background-color:#3581ba;" itemprop="keywords">Python</span><span class="language-color" style="width:39.5%; background-color:#438eff;" itemprop="keywords">Objective-C</span><span class="language-color" style="width:12.6%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    </a>
+  </div>
+
+<include-fragment src="/sideshowcoder/jpgcompressor/show_partial?partial=recently_touched_branches_list"></include-fragment>
+
+<div class="file-navigation in-mid-page">
+  <a href="/sideshowcoder/jpgcompressor/find/master"
+        class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/sideshowcoder/jpgcompressor/compare" aria-label="Compare, review, create a pull request" class="minibutton primary tooltipped tooltipped-s left compare-button" aria-label="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/sideshowcoder/jpgcompressor/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/sideshowcoder/jpgcompressor/tree/update-to-64-bit-and-new-sdk"
+                 data-name="update-to-64-bit-and-new-sdk"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="update-to-64-bit-and-new-sdk">update-to-64-bit-and-new-sdk</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/sideshowcoder/jpgcompressor/tree/0.5.2"
+                 data-name="0.5.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.5.2">0.5.2</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/sideshowcoder/jpgcompressor" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">jpgcompressor</span></a></span></span><span class="separator">/</span><a aria-label="You must be signed in to make or propose changes" class="octicon-button disabled tooltipped tooltipped-e" href="#"><span class="octicon octicon-plus"></span></a></div>
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/sideshowcoder/jpgcompressor/commit/43c7393fe4eebfac6fffe8e39e3b91307d7d4a1b" class="message" data-pjax="true" title="Merge pull request #9 from rborn/master
+
+Fix Xcode project architecture for 64 bit">Merge pull request</a> <a href="https://github.com/sideshowcoder/jpgcompressor/pull/9" class="issue-link" title="Fix Xcode project architecture for 64 bit">#9</a> <a href="/sideshowcoder/jpgcompressor/commit/43c7393fe4eebfac6fffe8e39e3b91307d7d4a1b" class="message" data-pjax="true" title="Merge pull request #9 from rborn/master
+
+Fix Xcode project architecture for 64 bit">from rborn/master</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Fix Xcode project architecture for 64 bit</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="43c7393fe4eebfac6fffe8e39e3b91307d7d4a1b" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/sideshowcoder/jpgcompressor/commit/43c7393fe4eebfac6fffe8e39e3b91307d7d4a1b" class="sha-block" data-pjax>latest commit <span class="sha">43c7393fe4</span></a>
+
+      <div class="authorship">
+        <img alt="Philipp Fehre" class="avatar" data-user="108488" height="20" src="https://avatars3.githubusercontent.com/u/108488?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/sideshowcoder" rel="author">sideshowcoder</a></span>
+        authored <time class="updated" datetime="2015-01-12T13:49:27Z" is="relative-time">Jan 12, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+  
+<div class="file-wrap">
+
+  <table class="files" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/tree/master/Classes" class="js-directory-link" id="e9878b4854d29907146149f695cb1cfb-cee8fb521335b014a405603e48cdaf1531fc05c1" title="Classes">Classes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/fd04563200a17a6a2e158dfc46e7e5d73df1286b" class="message" data-pjax="true" title="fixed data returned as data not image">fixed data returned as data not image</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-09-23T18:09:17Z" is="time-ago">Sep 23, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/tree/master/assets" class="js-directory-link" id="32bb636196f91ed59d7a49190e26b42c-152667f5b37d416eba936ea946e7d6ca9fcd83f6" title="assets">assets</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/tree/master/documentation" class="js-directory-link" id="55876228853abf632dec9346a4f372ec-62bfce5bd8d001c90cc6c47edeed63e4cd088a9f" title="documentation">documentation</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/8523cb54600886474aa6e6812b6cde9705526838" class="message" data-pjax="true" title="calculate the compress factor based on the desired size set, this is easier to use in titanium size the byte size of an image is not easily accessiable">calculate the compress factor based on the desired size set, this is …</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-28T11:56:40Z" is="time-ago">Jun 28, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/tree/master/example" class="js-directory-link" id="1a79a4d60de6718e8e5b326e338ae533-60fb6b1acbb782f6af3e7bb6091f829c2850ab9b" title="example">example</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/982cb698315be2467cee58dd427ee41fc462b3fd" class="message" data-pjax="true" title="update to Titanium SDK 3.4.1.GA
+
+As suggested by @caspahouzer add 64Bit support as well">update to Titanium SDK 3.4.1.GA</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-06T18:10:00Z" is="time-ago">Jan 6, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/tree/master/hooks" class="js-directory-link" id="4e819c837d54a6ed09abc77a8560a66f-a1099bb25f69db61eb1e4e78c7b7c88e0c7ed496" title="hooks">hooks</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/tree/master/jpgcompressor.xcodeproj" class="js-directory-link" id="5c05ccae1b61a4c00ceeab50b9b022c8-8ee557a0487e41ed9938a4ee993d19afabec6906" title="jpgcompressor.xcodeproj">jpgcompressor.xcodeproj</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/42417d667f47f1e55ccbbb2bf8d9954e99173604" class="message" data-pjax="true" title="Fix Xcode project architecture for 64 bit">Fix Xcode project architecture for 64 bit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-12T13:34:51Z" is="time-ago">Jan 12, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/tree/master/platform" class="js-directory-link" id="34a6e5d64ade17ef4e51612c50dd72f5-72b5cd1ac034efd4216fac3f09259ef967186de1" title="platform">platform</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-59c3ab0e1113dde9676172b26db9c7e29cb4a72e" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/ba257d3fcc7590daeaac91a5690153422c3710cd" class="message" data-pjax="true" title="ignore the xcode files">ignore the xcode files</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-06T17:32:46Z" is="time-ago">Jan 6, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/ComSideshowcoderJpgcompressor_Prefix.pch" class="js-directory-link" id="2435c8f35c01e860b1133183bea5e887-8bec24fa205708b0d21172aa0623493973867b14" title="ComSideshowcoderJpgcompressor_Prefix.pch">ComSideshowcoderJpgcompressor_Prefix.pch</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/LICENSE" class="js-directory-link" id="9879d6db96fd29134fc802214163b95a-631dccf5963756062157f623af31604a75806f48" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/README" class="js-directory-link" id="c47c7c7383225ab55ff591cb59c41e6b-6d0a736a37028e35ad5aca045b6f54d39db8e17c" title="README">README</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/982cb698315be2467cee58dd427ee41fc462b3fd" class="message" data-pjax="true" title="update to Titanium SDK 3.4.1.GA
+
+As suggested by @caspahouzer add 64Bit support as well">update to Titanium SDK 3.4.1.GA</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-06T18:10:00Z" is="time-ago">Jan 6, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/build.py" class="js-directory-link" id="2955d5257f635de1df53f55a171ca5c7-9102425b99947e616259420b7c85768c57352306" title="build.py">build.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/manifest" class="js-directory-link" id="7f5cb74af5d7f4b82200738fdbdc5a45-3affd12f4814b4f4a1cf65e1ee53437c7c08ef42" title="manifest">manifest</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/98eedf8c62c424c1951943409f953ae233b738e8" class="message" data-pjax="true" title="update version">update version</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-06T18:13:45Z" is="time-ago">Jan 6, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/module.xcconfig" class="js-directory-link" id="632504b74d9e288d1b9e12a70d5a7898-80ca88498fc0fc091d1df7847b461132b8481a1c" title="module.xcconfig">module.xcconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/timodule.xml" class="js-directory-link" id="88edd2e0ddcbd7e7fc982944628f333d-ae315971a58e7f0832c0b2502ad01d4f47261476" title="timodule.xml">timodule.xml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/e6e662fd225c46c86e37b25825056eb76826e47c" class="message" data-pjax="true" title="Initial 0.1 Version, compression working">Initial 0.1 Version, compression working</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-06-27T18:51:42Z" is="time-ago">Jun 27, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/sideshowcoder/jpgcompressor/blob/master/titanium.xcconfig" class="js-directory-link" id="7161e9ac1088f409d5a99ea175f11852-d43542bcb480f8c36dda430b15fba8a5d0cabb8f" title="titanium.xcconfig">titanium.xcconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/sideshowcoder/jpgcompressor/commit/982cb698315be2467cee58dd427ee41fc462b3fd" class="message" data-pjax="true" title="update to Titanium SDK 3.4.1.GA
+
+As suggested by @caspahouzer add 64Bit support as well">update to Titanium SDK 3.4.1.GA</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-06T18:10:00Z" is="time-ago">Jan 6, 2015</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body ">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README
+    </h3>
+
+    <div class="plain"><pre>Titanium JPGCompressor
+======================
+
+Author: Philipp Fehre [Website](<a href="http://sideshowcoder.com">http://sideshowcoder.com</a>)
+Repository: <a href="https://github.com/sideshowcoder/jpgcompressor">https://github.com/sideshowcoder/jpgcompressor</a>
+
+Description
+-----------
+### Compression
+Passing through UIImageJPEGRepresentation option to compress and scale images
+passed as a TiBlob. The resulting image is write to e temporary file if the
+name is passed as a secound argument or passed back as a TiBlob if no name is
+given.
+
+The compression quality is calculated by check the received data size against
+the desired size the ratio is taken as the compression factor. If wortQuality
+limit is set it is the take as the compression factor if the ratio calculated
+drops below.
+
+#### Example
+100kb Image desired 50kb compressed -&gt; compression factor 0.5
+100kb Image desired 50kb compressed, worst quality set to 0.6 -&gt; compression factor 0.6
+
+### Scaling
+Scale images using UIGraphicsBeginImageContext to fit the image in the desired size
+
+Usage
+-----
+See `example/app.js`
+
+Testing
+-------
+Run the example app and follow it's log see `example/app.js` for more details
+
+</pre></div>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="https://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.03809s from github-fe136-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-af95b05cb14b7a29b0457c26b4a1d24151f4a47842c8e74bd556622f347b9d3d.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-60c7ab07eabe8804b73ad90fdadf8b31efc896954f39bd84c8816438844631cb.js" type="text/javascript"></script>
+      
+      
+  </body>
+</html>
+

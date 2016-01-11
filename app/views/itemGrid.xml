@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" >
+		<View  class="title-bg">
+	    	<View class="h-size" id="AppWrapper">
+			    <Label id="mainTitle" class="title links" text="Item Grid" left="30"  onClick="closeWindow"></Label>
+				<ImageView id="imgBack" class="iconBig Left0" onClick="closeWindow" ></ImageView>
+			</View>
+		</View>
+		
+		<ScrollView id="itemGridView" class="itemGridView">
+			
+		</ScrollView>
+	</Window>
+</Alloy>
